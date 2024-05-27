@@ -15,7 +15,7 @@ from sklearn.model_selection import train_test_split
 import seaborn as sns
 
 # Load the CSV file
-df = pd.read_csv("D:/HURAIS FOLDER/AML CA2/diabetes_prediction-master/Diabetes.csv")
+df = pd.read_csv("Diabetes.csv")
 
 # Rename columns to match those used during model training
 df.rename(columns={
